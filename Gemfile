@@ -16,8 +16,12 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 #Api gems
 gem 'active_model_serializers'
-#devise
-gem 'devise', '~> 3.4.0'
+#Sabisu group Gems
+gem 'furatto', github: "IcaliaLabs/furatto-rails"
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0'
+gem 'font-awesome-rails'
+gem 'simple_form'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -54,3 +58,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+#devise
+gem 'devise', '~> 3.4.0'
